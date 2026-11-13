@@ -1,0 +1,15 @@
+node_modules/
+client/dist/
+# Token, certificados, perfiles del navegador de la tele y registros: nunca al repositorio.
+data/
+*.log
+*.tmp
+
+# Configuración local (PIN de emparejamiento, accesos directos e iconos propios).
+# El servidor genera estos ficheros con valores por defecto en el primer arranque.
+config/settings.json
+config/shortcuts.json
+config/icons/
+
+# Ajustes locales de Claude Code
+.claude/settings.local.json
